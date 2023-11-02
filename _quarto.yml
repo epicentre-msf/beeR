@@ -7,10 +7,14 @@ project:
 website:
   title: 'beeR'
   navbar:
+    pinned: true
     left:
-      - href: index.qmd
-        text: Home
+      - text: Home
+        href: index.qmd
+    right:
       - about.qmd
+      - text: Tutorials
+        href: tutorials/index.qmd
 
 format:
   html:
