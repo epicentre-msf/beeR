@@ -1,5 +1,27 @@
 ---
-title: "BeeR"
+about:
+  template: jolla
+  id: about-block
+  image: "img/lets_learn.svg"
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/epicentre-msf/beeR
+    - icon: envelope
+      text: Email
+      href: "mailto:catherine.eisenhauer@epicentre.msf.org"  
 ---
 
-let's learn R together !
+::: {#about-block}
+:::
+
+# Welcome!
+**Do you use R in your work with MSF? Or, maybe, you are interested in learning about it but don't know where to start? Perhaps you love snacks and helping your colleagues work through bugs in their code?**
+
+It seems like there is not on only a lot of interest in R but also a lot of folks already doing interesting things. Unfortunately, there doesn't seem to be a platform in place to share our knowledge, ask questions, and discuss new projects. UNTIL NOW!
+
+We are setting up an informal event, **beeR**, that will take place twice a month and give us an opportunity to learn R together. The sessions will have a **short (15-30 minute) tutorial** and will **rotate between beginner and advanced subjects.** 
+
+We don't want to add another formal meeting to anyone's (already busy) agenda. That's why we are organizing something casual with sessions alternating between 18h00 and 13h00. **These sessions are meant to be as much social as educational, so come curious and bring snacks!**
+ 
+(ps. R is a free, open source, programming language for statistical analysis, dashboards, and SO. MUCH. MORE.)
