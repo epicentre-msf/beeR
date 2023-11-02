@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>beeR - BeeR</title>
+<title>beeR</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,7 +33,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -63,7 +62,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -97,32 +96,40 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">BeeR</h1>
+
+
+<div class="quarto-about-jolla">
+  <img src="img/lets_learn.svg" class="about-image
+  round " style="height: 15em; width: 15em;">
+ <div id="about-block">
+</div> 
+  <hr class="about-sep">
+   <div class="about-links">
+  <a href="https://github.com/epicentre-msf/beeR" class="about-link">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">Github</span>
+  </a>
+  <a href="mailto:catherine.eisenhauer@epicentre.msf.org" class="about-link">
+    <i class="bi bi-envelope"></i>
+     <span class="about-link-text">Email</span>
+  </a>
+</div>
 </div>
 
+<section id="welcome" class="level1">
+<h1>Welcome!</h1>
+<p><em>Do you use R in your work with MSF? Or, maybe, you are interested in learning about it but don’t know where to start? Perhaps you love snacks and helping your colleagues work through bugs in their code?</em></p>
+<p>It seems like there is not on only a lot of interest in R but also a lot of folks already doing interesting things. Unfortunately, there doesn’t seem to be a platform in place to share our knowledge, ask questions, and discuss new projects. UNTIL NOW!</p>
+<p>We are setting up an informal event, <em>beeR</em>, that will take place twice a month and give us an opportunity to learn R together. The sessions will have a <em>short (15-30 minute) tutorial</em> and will <em>rotate between beginner and advanced subjects.</em></p>
+<p>We don’t want to add another formal meeting to anyone’s (already busy) agenda. That’s why we are organizing something casual with sessions alternating between 18h00 and 13h00. <em>These sessions are meant to be as much social as educational, so come curious and bring snacks! </em> (ps. R is a free, open source, programming language for statistical analysis, dashboards, and SO. MUCH. MORE.)</p>
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-</header>
-
-<p>let’s learn R together !</p>
-
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -145,13 +152,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const clipboard = new window.ClipboardJS('.code-copy-button', {
     target: function(trigger) {
       return trigger.previousElementSibling;
