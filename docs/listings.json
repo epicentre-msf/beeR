@@ -2,6 +2,7 @@
   {
     "listing": "/tutorials/index.html",
     "items": [
+      "/tutorials/resources.html",
       "/tutorials/error_messages.html"
     ]
   }
